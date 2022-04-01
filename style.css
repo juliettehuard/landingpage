@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+Body { 
+font-family: 'Roboto Condensed', sans-serif;
+text-align: center;
+}
+
+#banner {
+	height: 500px;
+	background-image: url(images/image1.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+#banner img {
+width: 50px;
+height: 50px;
+}
+ 
+h1 {
+	color: black;
+	font-size:  50px;
+	font-family: chivo;
+	padding-top: 10vh;
+	margin: 0;
+	text-align: center;
+	padding: 100px ;
+
+}
+
+#main-subtitle {
+	color: black;
+	opacity: 0,7;
+	font-family: overpass;
+	font-size: 25px;
+	text-align: center;
+	padding-bottom: 430px;
+	
+}
+
+#blue-bouton {
+	color: black;
+	text-decoration: none;
+	font-family: overpass;
+	font-size: 20px;
+	background-color: beige;
+	padding: 15px 45px;
+	position: relative;
+	padding: 30px;
+	border-radius: 5px;
+	font-weight: bold;
+	bottom: 410px;
+}
+
+#blue-bouton:hover {
+	transition: all 0.1s ease-out;
+	background-color: lightblue;
+	pading: 20px 50px;
+}
+
+#subtitle {
+	font-family: chivo;
+	color: black;
+	font-weight: bold;
+	margin-left: 0;
+	margin-right: 0;
+	text-align: center;
+}
+
+#container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.card {
+	background-color: white;
+	width: 228px;
+	height: 315px;
+	box-shadow: 0 0 16px rgb(0, 0, 0, 0.1);
+	border-radius: 4px;
+	padding: 24px;
+	margin: 0px;
+	text-align: center;
+}
+
+.card img {
+	width: 100%;
+	height: 180px;
+	border-radius: 4px;
+	object-fit: cover;
+}
+
+.card h3 {
+	color: blueviolet;
+	font-family: chivo;
+	font-size: 24px;
+}
+
+.card p {
+	font-family: overpass;
+	color: darkred;
+	font-size: 18px;
+}
+
+#footer {
+	height: 100px;
+	background-color: beige;
+	color: black;
+	padding-top: 5%;
+	text-align: center;
+	margin-top: 40%;
+	font-family: chivo;
+	margin-bottom:60%;
+	padding-bottom: 80px;
+}
+
+.newcard1 { 
+	border: 5px solid #FFFF00;
+
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-size: 100%;
+  font-size: 20px ;
+  text-align: center;
+  height: 500px;
+  width: 700px;
+  margin: 0 auto;
+  background-image: url(images/image5.jpg);
+  border: 5px saddlebrown;
+  border-radius: 20px;
+  box-shadow: 10px 20px 30px lightblue;
+}
+
+.newcard2 { 
+	background-size: contain;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-size: 20px ;
+  text-align: center;
+  height: 500px;
+  width: 700px;
+  margin: 0 auto;
+  background-image: url(images/image2.jpg);
+  border: 5px saddlebrown;
+  border-radius: 20px;
+  box-shadow: 10px 20px 30px lightblue;
+}
+
+.newcard3 { 
+	background-size: contain;
+	background-repeat: no-repeat;
+  font-size: 20px ;
+  text-align: center;
+  height: 500px;
+  width: 700px;
+  margin: 0 auto;
+  background-image: url(images/image6.jpg);
+  border: 5px saddlebrown;
+  border-radius: 20px;
+  box-shadow: 10px 20px 30px lightblue;
+}
+
+.newcard4 { 
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-size: 100%;
+  font-size: 20px ;
+  text-align: center;
+  height: 500px;
+  width: 700px;
+  margin: 0 auto;
+  background-image: url(images/image3.jpg);
+  border: 5px saddlebrown;
+  border-radius: 20px;
+  box-shadow: 10px 20px 30px lightblue;
+}
+
+.fa-brands {
+  font-size: 50px;
+}	
+
+ul {
+  list-style: none;
+ }   
+
+.video-responsive { 
+	padding: 80px;
+	overflow:hidden; 
+	padding-bottom:56.25%; 
+	position:relative; 
+	height:0;
+}
+
+.video {
+
+	text-align: center;
+	width:480px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:35px;
+}
+
+.centered {
+   position: absolute;
+   margin: auto;
+   top: 50%;
+   left: 50%;
+   right: 50%;
+   padding: 25px;
+}
+
+#blue-bouton {
+	color: black;
+	text-decoration: none;
+	font-family: overpass;
+	font-size: 20px;
+	background-color: beige;
+	padding: 15px 45px;
+	position: relative;
+	padding: 30px;
+	border-radius: 5px;
+	font-weight: bold;
+	bottom: 410px;
+}
+
+#blue-bouton:hover {
+	transition: all 0.1s ease-out;
+	background-color: lightblue;
+	pading: 20px 50px;
+}
+
